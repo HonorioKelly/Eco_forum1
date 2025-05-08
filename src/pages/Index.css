@@ -1,0 +1,154 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to bottom, #d4edda 20%, #e7f5ff 100%);
+    padding: 4rem 1rem;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.0rem;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: gray;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .primary {
+    background-color: #206932;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .outline {
+    background-color: transparent;
+    color: #6b6262;
+    border: 2px solid #1f2020;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .hero-image {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .features p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .featureList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    background: #f8f9fa;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+  
+  .testimonialList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 300px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .card p {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #6b6262;
+  }
+  
+  /* CTA */
+  .cta {
+    background: #2d7a48;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+  }
+  
