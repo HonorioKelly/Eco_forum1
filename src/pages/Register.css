@@ -1,0 +1,75 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .register-container {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .register-wrapper {
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .register-header {
+    text-align: center;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .logo-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #4caf50; /* exemplo de cor primária */
+  }
+  
+  .register-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .register-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .register-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .login-link {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  .login-link a {
+    color: #4caf50;
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    font-size: 0.875rem;
+  }
+  

@@ -1,7 +1,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { AuthState, User } from "@/types";
-import { toast } from "@/components/ui/sonner";
+import type { AuthState, User } from "@/types";
+import { toast } from "sonner";
 
 interface AuthContextType extends AuthState {
   login: (email: string, password: string) => Promise<void>;
@@ -79,7 +79,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
   };
 
-  const register = async (name: string, email: string, password: string) => {
+  const register = async (name: string, email: string) => {
     // Simulate API call delay
     setAuthState(prev => ({ ...prev, isLoading: true }));
     
